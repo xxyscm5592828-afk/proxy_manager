@@ -11,6 +11,7 @@
 -✅ 任务管理（启动/暂停/删除）
 -✅ 支持文件拖拽上传
 -✅ 响应式 UI 设计
+
 <img width="2400" height="1656" alt="a62e488647fd105441d28cacb603c43e" src="https://github.com/user-attachments/assets/feecfcf8-a385-4f7f-b2cd-c0fde8879251" />
 <img width="1600" height="1496" alt="3b110ab3d1c10c6a54133b1cdd304b61" src="https://github.com/user-attachments/assets/0669ff14-2e25-4252-8a15-9ee9ed90803c" />
 <img width="2400" height="1656" alt="93d547ed58931b05c53b17de49f2f384" src="https://github.com/user-attachments/assets/4cec2524-0b2d-43d8-90f0-d3174a5e647d" />
@@ -22,7 +23,7 @@
 ### 后端
 - **FastAPI** - 高性能 Web 框架
 - **FFmpeg** - 视频转码核心
-- **Uvicorn** - ASGI 服务器 
+- **Uvicorn** - ASGI 服务器
 - **WebSockets** - 实时进度推送
 
 ### 前端
