@@ -2,27 +2,32 @@
 
 基于 FastAPI + React 的 Web 版视频转码任务管理系统，支持批量转码视频为代理文件（低分辨率版本）。
 
-## 🌟 功能特性
+##🌟 功能特性
 
-- ✅ 批量上传视频文件
-- ✅ 支持多种编码格式（H.264/H.265/VP9/ProRes）
-- ✅ 多种分辨率选择（1080p/720p/480p/360p）
-- ✅ 实时转码进度显示
-- ✅ 任务管理（启动/暂停/删除）
-- ✅ 支持文件拖拽上传
-- ✅ 响应式 UI 设计
+-✅ 批量上传视频文件
+-✅ 支持多种编码格式（H.264/H.265/VP9/ProRes）
+-✅ 多种分辨率选择（1080p/720p/480p/360p）
+-✅ 实时转码进度显示
+-✅ 任务管理（启动/暂停/删除）
+-✅ 支持文件拖拽上传
+-✅ 响应式 UI 设计
+<img width="2400" height="1656" alt="a62e488647fd105441d28cacb603c43e" src="https://github.com/user-attachments/assets/feecfcf8-a385-4f7f-b2cd-c0fde8879251" />
+<img width="1600" height="1496" alt="3b110ab3d1c10c6a54133b1cdd304b61" src="https://github.com/user-attachments/assets/0669ff14-2e25-4252-8a15-9ee9ed90803c" />
+<img width="2400" height="1656" alt="93d547ed58931b05c53b17de49f2f384" src="https://github.com/user-attachments/assets/4cec2524-0b2d-43d8-90f0-d3174a5e647d" />
+
+
 
 ## 📦 技术栈
 
 ### 后端
 - **FastAPI** - 高性能 Web 框架
 - **FFmpeg** - 视频转码核心
-- **Uvicorn** - ASGI 服务器
+- **Uvicorn** - ASGI 服务器 
 - **WebSockets** - 实时进度推送
 
 ### 前端
 - **React 18** - UI 框架
-- **TypeScript** - 类型安全
+- ** TypeScript** - 类型安全
 - **Ant Design** - UI 组件库
 - **Vite** - 构建工具
 - **Axios** - HTTP 客户端
@@ -39,13 +44,13 @@
 
 ```bash
 git clone https://github.com/你的用户名/web-proxy-manager.git
-cd web-proxy-manager
+cd 网络代理管理器
 ```
 
 ### 2. 安装后端依赖
 
 ```bash
-cd backend
+cd 后端
 pip install -r requirements.txt
 ```
 
@@ -53,21 +58,21 @@ pip install -r requirements.txt
 
 ```bash
 cd ../frontend
-npm install
+npm 安装
 ```
 
 ### 4. 启动后端服务
 
 ```bash
-cd backend
+cd 后端
 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### 5. 启动前端开发服务器
 
 ```bash
-cd frontend
-npm run dev
+cd 前端
+npm 运行开发
 ```
 
 ### 6. 访问应用
@@ -79,8 +84,8 @@ npm run dev
 ## 📁 项目结构
 
 ```
-web_proxy_manager/
-├── backend/                    # 后端服务
+网页代理管理器/
+│── backend/                    # 后端服务
 │   ├── main.py                 # 应用入口
 │   ├── api/
 │   │   ├── routes.py           # API 路由
